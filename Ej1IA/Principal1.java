@@ -1,4 +1,4 @@
-package Ej1IA;
+package EjBasicos3T.Ej1IA;
 
 // Clase Ej1.Principal1: donde ejecutaremos nuestro programa.
 public class Principal1 {
