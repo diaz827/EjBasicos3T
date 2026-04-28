@@ -11,5 +11,39 @@ IMPORTANTE:
 - Tendrás que capturar (catch) las excepciones que lanzan las clases de lectura/escritura de ficheros.
  */
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.Buffer;
+import java.util.Scanner;
+
 public class Ej1 {
+
+    public static void main(String[] args) throws IOException {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Escribe una frase");
+        String Frase1 = sc.nextLine();
+
+        System.out.println("Escribe otra frase");
+        String Frase2 = sc.nextLine();
+
+        System.out.println("Escribe otra frase");
+        String Frase3 = sc.nextLine();
+
+        BufferedWriter teclado = new BufferedWriter(new FileWriter("frases.txt"));
+
+        teclado.write(Frase1);
+        teclado.newLine();
+
+        teclado.write(Frase2);
+        teclado.newLine();
+
+        teclado.write(Frase3);
+        teclado.newLine();
+
+        teclado.close();
+    }
+
 }

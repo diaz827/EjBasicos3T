@@ -19,6 +19,7 @@ hace cada una.
  */
 
 public class Ej1 {
+
     public static void main(String[] args) {
 
         Gato gato1 = new Gato("erik");
