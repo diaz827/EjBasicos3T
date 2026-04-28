@@ -1,4 +1,4 @@
-package EjBasicos3T.Semana1.Ej1IA.EJ1YO;
+package EjBasicos3T.Semana1.EJ1YO;
 
 public class Principal1 {
 

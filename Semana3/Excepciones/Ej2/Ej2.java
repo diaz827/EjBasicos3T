@@ -1,4 +1,4 @@
-package Semana3;
+package EjBasicos3T.Semana3.Excepciones.Ej2;
 
 /*
 Ejercicio 2:
@@ -21,7 +21,7 @@ public class Ej2 {
 
         int edadEspectador = 10;
 
-        System.out.println("--Intentamos entrar en a la sesión del cine (Edad " + edadEspectador + " años)--");
+        System.out.println("--Intentamos entrar en la sesión del cine (Edad " + edadEspectador + " años)--");
 
         try {
 
@@ -59,4 +59,6 @@ public class Ej2 {
 
     }
 }
+
+
 

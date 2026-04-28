@@ -1,4 +1,4 @@
-package Semana3;
+package EjBasicos3T.Semana3.Excepciones;
 
 /*
 Ejercicio 1:
@@ -18,7 +18,6 @@ lance una excepción, ya no pasaría por esa siguiente línea). En el catch impr
 // }
  */
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ej1 {

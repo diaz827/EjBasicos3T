@@ -1,4 +1,4 @@
-package Semana2;
+package EjBasicos3T.Semana2;
 
 import java.util.Scanner;
 import java.util.HashSet;

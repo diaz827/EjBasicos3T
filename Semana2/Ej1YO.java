@@ -1,4 +1,4 @@
-package Semana2;
+package EjBasicos3T.Semana2;
 
 import javax.management.PersistentMBean;
 import javax.xml.transform.Source;

@@ -1,4 +1,4 @@
-package EjBasicos3T.Semana1.Ej1IA.EJ2YO;
+package EjBasicos3T.Semana1.EJ2YO;
 
 public class Usuario {
 

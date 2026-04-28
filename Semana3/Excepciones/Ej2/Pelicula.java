@@ -1,4 +1,4 @@
-package Semana3;
+package EjBasicos3T.Semana3.Excepciones.Ej2;
 
 public class Pelicula {
 
