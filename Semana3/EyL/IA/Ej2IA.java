@@ -1,4 +1,4 @@
-package EjBasicos3T.Semana3.EyL.Ej2.IA;
+package EjBasicos3T.Semana3.EyL.IA;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

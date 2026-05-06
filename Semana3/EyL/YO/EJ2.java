@@ -17,9 +17,7 @@ EXTRA:
 - Puedes plantear crear una clase con métodos para serializar / deserializar (Estudiante -> String, Strint -> Estudiante).
  */
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 
 public class EJ2 {
 
@@ -27,8 +25,12 @@ public class EJ2 {
 
         Estudiante Carles = new Estudiante("Carles\n","Sanchez\n",123);
 
+        guardarEstudiante(Carles);
 
-
+        System.out.println("Estudiante recuperado:");
+        System.out.println(recuperado.getNombre());
+        System.out.println(recuperado.getApellido1());
+        System.out.println(recuperado.getId());
 
     }
 
@@ -48,4 +50,24 @@ public class EJ2 {
         datos.close();
 
     }
+
+    private static Estudiante leerEstudiante() throws IOException {
+
+        BufferedReader lector = new BufferedReader(new FileReader("estudiante.txt"));
+
+        String linea;
+        String contenido = "";
+
+        while ((linea = lector.readLine()) != null) {
+            contenido += linea + "\n";
+        }
+
+        lector.close();
+
+        return Estudiante.fromFormato(contenido);
+    }
 }
+
+
+
+//SIN TERMINAR
