@@ -1,5 +1,7 @@
 package EjBasicos3T.Semana4.Ej3;
 
+import java.util.Scanner;
+
 /*
 Crea una clase Figura con:
 - atributo nombre
@@ -20,5 +22,22 @@ public class Ej3 {
 
     static void main() {
 
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Como se llama el cuadrado?");
+        String nomCuadrado = sc.next();
+        System.out.println("\nCuanto mide el lado?");
+        double lado = sc.nextDouble();
+
+        System.out.println("Como se llama el cuadrado?");
+        String nomCirculo = sc.next();
+        System.out.println("\nCuanto mide el radio?");
+        double radio = sc.nextDouble();
+
+        Cuadrado Cu =  new Cuadrado(nomCuadrado,lado);
+        Circulo Ci = new Circulo(nomCirculo,radio);
+
+        System.out.println("\nCalculo del area del Cuadrado " + Cu.calcularArea());
+        System.out.println("\nCalculo del area del Circulo " + Ci.calcularArea());
     }
 }
