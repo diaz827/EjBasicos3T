@@ -1,5 +1,5 @@
 import java.io.*;
-
+/*
 public class EJ2 {
 
     public static void main(String[] args) throws IOException {
@@ -40,4 +40,4 @@ public class EJ2 {
 
         return Estudiante.fromFileFormat(contenido);
     }
-}
+} */

@@ -28,5 +28,29 @@ de la clase padre y aplicarle los modificadores que correspondan;
 en el caso del guerrero, también tendrá que imprimir por pantalla si hace crítico.
  */
 
+import java.lang.reflect.GenericArrayType;
+
 public class Ej2 {
+
+    public static void main() {
+
+        Guerrero guerrero = new Guerrero("will", 100);
+        Mago mago = new Mago("ugg", 100);
+
+        System.out.println("--El guerrero ataca 10 veces--");
+        for (int i = 1; i <= 10; i++) {
+            int danho = guerrero.atacar();
+            if (danho == 200) {
+                System.out.println("Ataque CRITICO " + i + ": " + danho);
+            } else {
+                System.out.println("Ataque " + i + ": " + danho);
+            }
+        }
+
+        System.out.println("\n--El mago ataca 10 veces--");
+        for (int i = 1; i <= 10; i++) {
+                int danho = mago.atacar();
+                System.out.println("Ataque " + i + ": " + danho);
+        }
+    }
 }

@@ -16,7 +16,7 @@ no un número. Para convertir un String a entero puedes usar "int numero = Integ
 EXTRA:
 - Puedes plantear crear una clase con métodos para serializar / deserializar (Estudiante -> String, Strint -> Estudiante).
  */
-
+/*
 import java.io.*;
 
 public class EJ2 {
@@ -68,6 +68,6 @@ public class EJ2 {
     }
 }
 
-
+ */
 
 //SIN TERMINAR
